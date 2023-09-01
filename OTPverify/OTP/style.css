@@ -1,0 +1,83 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #B3CAFF;
+}
+
+.main{
+    height: 80vh;
+    width:80vw;
+    position: relative;
+    margin: 0 auto 0 auto;
+    margin-top: 60px;
+    background-color: #D7E2F8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.otpdiv{
+    width: 30%;
+ 
+    background-color: #F5F5FD;
+    margin:50px;
+    margin-right: 100px;
+    border-radius: 15px;
+    border: solid #9DBCFB ;
+    
+}
+p{
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img{
+    margin-top: 25px;
+    margin-left: 70px;
+}
+#email{
+    height: 30px;
+    width: 300px;
+    margin-left: 10px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button{
+    margin-left: 125px;
+    margin-top: 20px;
+    height: 30px;
+    width: 70px;
+    background-color: #255FF4;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+ 
+}
+button:hover{
+   background-color: #1d3f96;
+}
+button:active{
+   
+    transform: translateY(2px)
+}
+#submit{
+    text-decoration: none;
+    color: white;
+}
